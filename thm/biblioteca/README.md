@@ -34,7 +34,7 @@ Nmap done: 1 IP address (1 host up) scanned in 10.01 seconds
 
 Visiting the server on port 8000 reveals a web site
 
-[login](./screenshots/login.png)
+![login](./screenshots/login.png)
 
 One thing to test for is sql Authentication bypass via SQLI and this works for username so  using the below for both username and password reveals a user called smokey
 
@@ -42,7 +42,7 @@ One thing to test for is sql Authentication bypass via SQLI and this works for u
 ```
 ' or 1=1--
 ```
-[smokeylogin](./screenshots/smokeylogin.png)
+![smokeylogin](./screenshots/smokeylogin.png)
 
 So after knowing the site is vulnabke to SQLI next thing is firing up sqlmap to what info could be dumped so saving the login in request from burp to disk it can be used to find interresting tables
 
